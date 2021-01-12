@@ -1,0 +1,40 @@
+.nav-bar{
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    list-style:none;
+    background-color: darksalmon;
+    
+
+}
+.container{
+    background-color: bisque;
+}
+.logos{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.panier{
+    display: inline-flex;
+
+}
+.product-list{
+    display: flex;justify-content: space-around;align-items: center;
+    
+    
+}
+
+.price-total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:bisque;
+
+}
+
+.heart:hover{
+    color:red;cursor: pointer;
+    animation:animate .8s steps(28) 1;
+}
